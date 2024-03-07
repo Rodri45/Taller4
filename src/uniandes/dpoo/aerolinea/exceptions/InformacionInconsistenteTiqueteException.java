@@ -1,9 +1,6 @@
 package uniandes.dpoo.aerolinea.exceptions;
 
-/**
- * Esta clase se usa para indicar que, al cargar un archivo, se encontraro inconsistencias bien sea dentro del archivo, o entre el archivo y el estado de los clientes y
- * tiquetes de la aerolínea.
- */
+
 @SuppressWarnings("serial")
 public class InformacionInconsistenteTiqueteException extends InformacionInconsistenteException
 {

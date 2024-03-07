@@ -5,11 +5,10 @@ public class ClienteNatural extends Cliente {
 	private String tipoCliente;
 
     public ClienteNatural(String nombre) {
-        super(); // Assuming the superclass Cliente has a constructor that takes a name
+        super(); 
         this.tipoCliente = NATURAL;
     }
 
-    @Override
     public String getTipoCliente() {
         return this.tipoCliente;
     }
